@@ -1,0 +1,230 @@
+@CHARSET "UTF-8";
+
+body {
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    font-family:"Microsoft Yahei";
+    color: #666;
+}
+
+div{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#header {
+    height: 82px;
+    width: 1200px;
+}
+
+#main {
+    height: 460px;
+    width: 1200px;
+    border: 1px black solid;
+    overflow: auto;
+}
+
+.index_body{
+    background-image: url(../img/index_background.png);
+    /*background: url();*/
+    /*图片上下左右居中*/
+    background-position:50% 50%;
+
+    /*保持图像本身的宽高比例，缩放图片至宽度或高度正好适应定义背景的区域*/
+    background-size:contain;
+
+    /*覆盖填充，将图片缩放到宽度或高度正好适应定义背景的区域*/
+    background-size:cover;
+
+    /*图像不重复显示*/
+    background-repeat:no-repeat;
+}
+
+#into_management{
+    font-size: 30px;
+    line-height: 430px;
+    text-align: center;
+}
+
+#login_header{
+    height: 82px;
+    width: 1200px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.login_banner{
+    height:475px;
+    background-color: #39987c;
+}
+
+.login_form{
+    height:310px;
+    width:406px;
+    float: right;
+    margin-right:50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+
+#content {
+    height: 475px;
+    width: 1200px;
+}
+
+.login_box{
+    margin: 20px;
+    height: 260px;
+    width: 366px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.msg_cont{
+    background: none repeat scroll 0 0 #fff6d2;
+    border: 1px solid #ffe57d;
+    color: #666;
+    height: 18px;
+    line-height: 18px;
+    padding: 3px 10px 3px 40px;
+    position: relative;
+    border: none;
+}
+
+.tit {
+    height: 30px;
+    line-height: 10px;
+}
+
+.msg_cont b {
+    background: url("../img/pwd-icons-new.png") no-repeat scroll -104px -22px rgba(0, 0, 0, 0);
+    display: block;
+    height: 17px;
+    left: 10px;
+    margin-top: -8px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    width: 16px;
+}
+
+#get_user{
+    float: right;
+}
+
+
+.form .itxt {
+    border: 0 none;
+    float: none;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 35px;
+    line-height: 18px;
+    overflow: hidden;
+    padding: 10px 0 10px 10px;
+    width: 220px;
+    border: 1px #e3e3e3 solid;
+}
+
+#sub_btn{
+    background-color: #39987c;
+    border: none;
+    color: #fff;
+    width: 360px;
+    height: 40px;
+}
+
+#l_content {
+    float: left;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+#l_content span {
+    font-size: 60px;
+    color: white;
+}
+
+#sales_div{
+    height: 100%;
+    width: 50%;
+    float: right;
+    line-height: 400px;
+}
+
+
+#purchase_div{
+    height: 100%;
+    width: 50%;
+    float: left;
+    line-height: 400px;
+    text-align: right;
+}
+
+#purchase_a{
+    margin-top: 200px;
+    margin-right: 10px;
+}
+
+#sales_a{
+    margin-left: 10px;
+}
+
+#book_a{
+    margin-left: 10px;
+}
+
+/*购物车*/
+#main table{
+    margin: auto;
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+#main table td{
+    font-size: 20px;
+    width: 120px;
+    text-align:center;
+    border-bottom: 1px #e3e3e3 solid;
+    padding: 10px;
+}
+
+#return_last{
+    margin-left: 40px;
+}
+
+#add{
+    margin-left: 650px;
+}
+
+#form_list{
+    background-image: url(../img/form_back.webp);
+    /*background: url();*/
+    /*图片上下左右居中*/
+    background-position:50% 50%;
+
+    /*保持图像本身的宽高比例，缩放图片至宽度或高度正好适应定义背景的区域*/
+    background-size:contain;
+
+    /*覆盖填充，将图片缩放到宽度或高度正好适应定义背景的区域*/
+    background-size:cover;
+
+    /*图像不重复显示*/
+    background-repeat:no-repeat;
+}
+
+#book_back{
+    margin-left: 750px;
+}
+
+#search{
+    margin-left: 600px;
+}
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/web/index.jsp" value="file://$PROJECT_DIR$/web" />
+        <entry key="file://$PROJECT_DIR$/web/pages/addPurchaseOrder.jsp" value="file://$PROJECT_DIR$/web/pages" />
+        <entry key="file://$PROJECT_DIR$/web/pages/login.jsp" value="file://$PROJECT_DIR$/web/pages" />
+        <entry key="file://$PROJECT_DIR$/web/pages/puchaseManagemt/purchaseManagement.jsp" value="file://$PROJECT_DIR$/web/pages/puchaseManagemt" />
+        <entry key="file://$PROJECT_DIR$/web/pages/purchaseManagement.jsp" value="file://$PROJECT_DIR$/web/pages" />
+      </map>
+    </option>
+  </component>
+</project>
